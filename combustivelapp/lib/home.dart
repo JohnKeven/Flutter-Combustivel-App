@@ -22,11 +22,11 @@ class _homeState extends State<home> {
     } else {
       if ((precoAlcool / precoGasolina) >= 0.7) {
         setState(() {
-          _textoResultado = "Melhor abastecer com gasolina!";
+          _textoResultado = "Melhor abastecer com gasolina!!";
         });
       } else {
         setState(() {
-          _textoResultado = "Melhor abastecer com Álcool!";
+          _textoResultado = "Melhor abastecer com Álcool!!";
         });
       }
       _limparCampos();
